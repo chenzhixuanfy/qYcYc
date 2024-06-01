@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>500错误页面</title>
+  <meta name="keywords"
+    content="企查查,企业查询,公司查询,工商查询,企业信用信息查询系统,企业工商信息查询平台,企业财务信息查询,企业信用评价查询,企业纠纷查询,企业现金流查询,企业股权查询,企业负债查询,企业资产查询,企业财报查询,企业失信信息查询">
+  <meta name="description"
+    content="企查查信息来自国家企业信用信息公示系统，提供企业信息查询,工商查询,企业信用评价查询，企业纠纷查询，企业现金流查询，企业股权查询，企业负债查询，企业资产查询，企业财报查询,公司查询等相关信息查询；帮您快速了解企业信息,企业工商信息,企业信用信息等经营和人员投资状况！">
+  <meta charset="utf-8">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta content="black" name="apple-mobile-web-app-status-bar-style">
+  <meta content="telephone=no" name="format-detection">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <meta name="layoutmode" content="standard">
+  <meta name="wap-font-scale" content="no">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+  .error-wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+  }
+  .mod-notfound {
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 0px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .mod-notfound .img-notfound {
+    width: 240px;
+  }
+
+  .mod-notfound div{
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #999999;
+    margin:20px auto 30px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+
+  .mod-notfound  .btn {
+    font-family: PingFangSC-Regular, PingFang SC;
+    width: 88px;
+    height: 32px;
+    text-align: center;
+    background: #128bed;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    display: block;
+    text-decoration: none;
+    padding: 0;
+    margin:0 auto;
+    box-sizing: border-box;
+    border:none;
+  }
+  </style>
+</head>
+
+<body>
+  <div class="error-wrap">
+    <div class="mod-notfound grid-98">
+      <img class="img-notfound" src="//qcc-static.qcc.com/resources/web/images/error/500-new.png">
+      <div>抱歉，系统繁忙，请稍候重试</div>
+      <a href="https://www.qcc.com" class="btn">返回首页</a>
+    </div>
+  </div>
+</body>
+<script>
+  function errPageReload() {
+    window.location.reload()
+  } 
+</script>
+
+</html>
